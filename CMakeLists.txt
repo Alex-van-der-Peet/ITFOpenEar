@@ -172,6 +172,6 @@ target_link_libraries(talker ${catkin_LIBRARIES})
 target_link_libraries(talker pthread)
 target_link_libraries(talker opensmile)
 
-add_executable(listener src/listener.cpp)
-target_link_libraries(listener ${catkin_LIBRARIES})
+#add_executable(listener src/listener.cpp)
+#target_link_libraries(listener ${catkin_LIBRARIES})
 
