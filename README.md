@@ -1,7 +1,7 @@
 itf_open_ear
 ==========
 
-This package launches a talker which instantiates an audio processor from the modified ros_open_ear package and publishes the detected emotions on /affectPub and /emoPub.
+This package launches a talker which instantiates an audio processor from the modified ros_open_ear package and publishes the detected emotions on /affect_pub and /emo_pub.
 
 Prerequisites
 -------------
@@ -29,7 +29,7 @@ rosrun begginer_tutorials talker -C /home/yourusername/catkin_ws/config/emobase_
 
 To check if it's working:
 
-rostopic echo /emoPub
+rostopic echo /emo_pub
 
 Notes
 -----
