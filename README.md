@@ -9,7 +9,7 @@ See the geni-lab/ros_open_ear package for instructions on how to install that.
 
 If you are having trouble getting your audio input device to work, try getting the latest version of PortAudio at http://www.portaudio.com/download.html (pa_stable_v19_20140130.tgz worked for us). Unpack it, make, sudo make install.
 
-You'll also have to copy the models and config files from where you installed ros_open_ear. Assuming ~/ros_open_ear for that and ~/catkin_ws/src/itf_open_ear for this package:
+You'll also have to copy the models and config files from where you installed ros_open_ear. Assuming ~/ros_open_ear for that and ~/catkin_ws for your catkin workspace root:
 
 cp -R ~/ros_open_ear/config ~/catkin_ws/
 cp -R ~/ros_open_ear/models ~/catkin_ws/
