@@ -32,11 +32,11 @@
 #include "std_msgs/String.h"
 // %EndTag(MSG_HEADER)%
 
-#include <smileCommon.hpp>
+#include <ros_open_ear/smileCommon.hpp>
 
-#include <configManager.hpp>
-#include <commandlineParser.hpp>
-#include <componentManager.hpp>
+#include <ros_open_ear/configManager.hpp>
+#include <ros_open_ear/commandlineParser.hpp>
+#include <ros_open_ear/componentManager.hpp>
 
 #define MODULE "SMILExtract"
 
